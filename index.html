@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body class="bg-maroon text-zamrud">
+    <div class="container">
+        <div class="clock-wrapper">
+            <h1 class="heading">My Clock</h1>
+            <div class="clock" id="clock">
+            </div>
+            <div id="date" class="date">
+            </div>
+        </div>
+        <div class="settings">
+            <div>settings</div>
+            <div class="setting">
+                <div class="setting-name">
+                    Clock Format
+                </div>
+                <div class="setting-option bg-maroon" onclick="setFormat(true)">
+                    12
+                </div>
+                <div class="setting-option bg-maroon" onclick="setFormat(false)">
+                    24
+                </div>
+            </div>
+            <div class="setting">
+                <div class="setting-name">
+                    Clock Source
+                </div>
+                <div class="setting-option bg-maroon" onclick="setGmt(false)">
+                    Local
+                </div>
+                <div class="setting-option bg-maroon" onclick="setGmt(true)">
+                    GMT
+                </div>
+            </div>
+            <div class="setting">
+                <div class="setting-name">
+                    Clock Theme
+                </div>
+                <div class="setting-option theme-1" onclick="setTheme(1)">
+                    Theme 1
+                </div>
+                <div class="setting-option theme-2" onclick="setTheme(2)">
+                    Theme 2
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

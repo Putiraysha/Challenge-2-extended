@@ -1,0 +1,93 @@
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-violet{
+    background: linear-gradient(180deg, #8813f5 25%, #39b3fa 100%);
+}
+
+.bg-maroon{
+    background: linear-gradient(180deg, rgba(154,3,30,1) 25%, rgba(95,15,64,1) 100%);
+}
+
+.text-tomato{
+    color: #ff6347;
+}
+
+.text-zamrud{
+    color: #1a936f;
+}
+.container{
+    padding: 50px;
+    height: calc(100vh - 100px);
+}
+
+.clock-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 30px;
+    border: 2px solid white;
+    white-space: nowrap;
+}
+
+.clock{
+    font-size: 72px;
+}
+
+.date{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.heading{
+    font-size: 60px;
+    font-variant: small-caps;
+    margin: 10px;
+}
+
+.settings{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px 20px 0 0;
+    color: black;
+}
+
+.setting{
+    display: inline-block;
+    min-width: 20px;
+    margin: 0 10px;
+}
+
+.setting-name{
+    font-size: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.setting-option{
+    font-size: 15px;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.theme-1{
+    background: linear-gradient(90deg, rgba(136,19,245,1) 0%, #39b3fa 50%, rgba(255,99,71,1) 96%);
+}
+
+.theme-2{
+    background: linear-gradient(90deg, rgba(154,3,30,1) 0%, rgba(95,15,64,1) 50%, rgba(26,147,111,1) 100%);
+}
